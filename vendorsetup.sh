@@ -1,10 +1,10 @@
-# Android device tree for Infinix Infinix X672 (Infinix-X672)
-
-```
 #
 # Copyright (C) 2025 The Android Open Source Project
 # Copyright (C) 2025 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-```
+
+add_lunch_combo omni_Infinix-X672-user
+add_lunch_combo omni_Infinix-X672-userdebug
+add_lunch_combo omni_Infinix-X672-eng
