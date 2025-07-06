@@ -7,3 +7,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_X672.mk
+
+COMMON_LUNCH_CHOICES := \
+    twrp_X672-user \
+    twrp_X672-userdebug \
+    twrp_X672-en
