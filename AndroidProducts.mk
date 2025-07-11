@@ -11,4 +11,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     twrp_X672-user \
     twrp_X672-userdebug \
-    twrp_X672-en
+    twrp_X672-eng
