@@ -7,6 +7,9 @@
 
 DEVICE_PATH := device/infinix/Infinix-X672
 
+BOARD_USES_MTK_HARDWARE := true
+BOARD_HAS_MTK_HARDWARE := true
+
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
@@ -120,6 +123,13 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+TW_INCLUDE_NTFS_3G := true                    # Include NTFS Filesystem Support
+TW_INCLUDE_FUSE_EXFAT := true                 # Include Fuse-ExFAT Filesystem Support
+TWRP_INCLUDE_LOGCAT := true                   # Include LogCat Binary
+TW_INCLUDE_FB2PNG := true                     # Include Screenshot Support
+TW_DEFAULT_LANGUAGE := en                     # Set Default Language 
+TW_EXTRA_LANGUAGES := false
+
 
 # Debug
 TWRP_INCLUDE_LOGCAT := true
